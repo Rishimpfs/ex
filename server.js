@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Simple route to test the server
-app.get('/', (req, res) => {
+app.get('/check', (req, res) => {
   res.send('✅ Backend is running!');
 });
 
